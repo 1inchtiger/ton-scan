@@ -22,7 +22,7 @@ function TokenPrice() {
 
   useEffect(() => {
     fetchPrice();
-    const interval = setInterval(fetchPrice, 10000);
+    const interval = setInterval(fetchPrice, 10 * 60 * 1000);
     return () => clearInterval(interval);
   }, []);
 

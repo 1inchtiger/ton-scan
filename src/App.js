@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1>TON Price Tracker</h1>
+        <h1>Accuracy TON Price Tracker 2</h1>
       </header>
       <main className="main">
         <TokenPrice />
