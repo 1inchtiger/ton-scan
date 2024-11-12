@@ -1,0 +1,27 @@
+.price-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+  }
+  
+  .price-label {
+    color: #6d7885;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .price-value {
+    color: #2e3a59;
+    font-size: 32px;
+    font-weight: 500;
+  }
+  
+  .loading {
+    color: #6d7885;
+  }
+  
+  .error {
+    color: #e64646;
+  }
